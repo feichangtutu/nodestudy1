@@ -21,3 +21,7 @@ setImmediate(say(sf));
 process.on('uncaughtException',function(err){
     //console.log(err)
 })
+
+
+var util = require('util')
+util.inherits()
